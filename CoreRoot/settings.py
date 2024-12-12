@@ -80,8 +80,8 @@ WSGI_APPLICATION = 'CoreRoot.wsgi.application'
 DATABASES = {
     'default': {
     'ENGINE': 'django.db.backends.postgresql_psycopg2',
-    'NAME': 'cornedb',
-    'USER': 'corn',
+    'NAME': 'new_coredb',
+    'USER': 'new_core',
     'PASSWORD': 'wCh29&HE&T83',
     'HOST': 'localhost',
     'PORT': '5432', 
