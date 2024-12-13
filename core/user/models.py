@@ -57,11 +57,11 @@ class User(AbstractBaseUser, PermissionsMixin):
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['username']
 
-    objects = UserManager()
+    objects = UserManager() #assigns the custom manager to the model
 
     def __str__(self):
-        return f"{self.email}"
+        return f"{self.email}" #assigns the user's email as the string representation 
     
     @property
     def name(self):
-        return f"{self.first_name} {self.last_name}"
+        return f"{self.first_name} {self.last_name}" #concateates the user's first and last names.
