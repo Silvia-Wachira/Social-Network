@@ -7,5 +7,6 @@ class UserSerializer(serializers.ModelSerializer):
     updated = serializers.DateTimeField(read_only=True)
 
     class Meta:
-        model = Userfields = ['id', 'username', 'first_name','last_name','bio','avatar','email', 'is_active','created','updated']
+        model = User
+        fields = ['id', 'username', 'first_name','last_name','bio','avatar','email', 'is_active','created','updated']
         read_only_field = ['is_active']
