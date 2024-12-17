@@ -5,7 +5,6 @@ Silvia Wachira
 This is a Python service to create a social network 
 # Key Features
 * - **REST API**: Manage customers and orders.
-* - **JWT Authentication**: Secure API endpoints.
  
 # Technologies Used
 * Django
