@@ -11,7 +11,7 @@ This is a Python service to create a social network
 * PostgreSQL
 # Set Up Instructions
 * Clone the repository
-* cd panda
+* cd socal-network
 * python -m venv venv
 * source venv/bin/activate
 * pip install -r requirements.txt
