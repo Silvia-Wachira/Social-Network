@@ -1,6 +1,6 @@
 # social-network
 # Author
-Silvia Wachira 
+Silvia N Wachira 
 # Description
 This is a Python service to create a social network 
 # Key Features
